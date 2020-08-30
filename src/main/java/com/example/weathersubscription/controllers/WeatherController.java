@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WeatherController {
 
-    @RequestMapping("/")
-    public String index() {
-        return "";
+    @RequestMapping("/status")
+    public String status() {
+        return "healthy";
     }
 }
